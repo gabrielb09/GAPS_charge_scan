@@ -115,7 +115,7 @@ data_bkp = data
 =======
 # Configuration
 conv_factor = 0.841
-channels = range(args.minCh, args.maxCh + 1)
+channels = range(args.minChan, args.maxChan + 1)
 channels = np.setdiff1d(channels, args.exclude)
 
 # Determine if charge scan or threshold scan
